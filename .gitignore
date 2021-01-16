@@ -16,3 +16,10 @@ CmakeSettings.json
 CombinedSources*.cpp
 .DS_Store
 *~
+
+*.cmake
+graph_info.json
+conaninfo.txt
+conanbuildinfo.txt
+conan.lock
+con
