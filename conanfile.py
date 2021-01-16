@@ -9,7 +9,7 @@ class TguiConanFile(ConanFile):
     requires = "sfml/2.5.1@bincrafters/stable"
     settings = "arch", "build_type", "compiler"
     generators = "cmake_find_package"
-    exports_sources = "CMakeLists.txt", "pgkconfig/*", "cmake/*", "src/*", "include/*", "tests/*" , "themes/*", "gui-builder/*"
+    exports_sources = "CMakeLists.txt", "README.md", "license.txt", "pgkconfig/*", "cmake/*", "src/*", "include/*", "tests/*" , "themes/*", "gui-builder/*"
 
     #TODO add some code to build sfml using the shared options
     options = {
